@@ -55,5 +55,8 @@ int main(){
   __int128_t max4 = INT64_MAX;
   printf("int 128 bit range: %lld to %lld", (long long)min4, (long long)max4);
 
-
+  printf("\n\n");
+  printf("Name\t\tSize\n");
+  printf("________________________\n");
+  printf("int\t\t%d\nlong int\t%d\nlong long int\t%d\nlong long\t%d\n__int8\t\t%d\n__int16\t\t%d\n__int32\t\t%d\n__int64\t\t%d\n__int128_t\t%d\n", sizeof(int), sizeof(long int), sizeof(long long int), sizeof(long long), sizeof(__int8), sizeof(__int16), sizeof(__int32),sizeof(__int64), sizeof(__int128_t));
 }
