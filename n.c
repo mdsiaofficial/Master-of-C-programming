@@ -1,25 +1,38 @@
 #include <stdio.h>
 
-struct Person
-{
-  char name[50];
-  int age;
-  char dept[50];
-};
+// Define the struct for a person's details
+typedef struct {
+    char name[100];
+    int age;
+    char dept[50];
+} Person;
 
-void printPersonDetails(){
-  
+typedef struct {
+    char name[100];
+    int age;
+    char dept[50];
+} Person1;
 
-  printf("Name: %s\nAge: %d\nDepartment: %s\n", p1.name, p1.age, p1.dept);
-
+// Function to print person's details
+void printPersonDetails(Person p) {
+    printf("Name: %s\n", p.name);
+    printf("Age: %d\n", p.age);
+    printf("Department: %s\n", p.dept);
 }
-int main(){
-  struct Person p1;
-  printf("Enter name: ");
-  scanf("%s", &p1.name);
-  printf("Enter age: ");
-  scanf("%d", &p1.age);
-  printf("Enter department: ");
-  scanf("%s", &p1.dept);
-  printPersonDetails();
+
+int main() {
+    // Create a Person struct and assign values
+    Person p = {"Alice", 30, "IT"};
+    Person p1 = {"Ashiq", 24, "CSE", 25};
+
+    // Call the print function with the person struct
+    printPersonDetails(p1);
+    // printPersonDetails(p1); // It will bring error 
+
+    /* 
+    n.c:17:32: note: expected 'Person' {aka 'struct <anonymous>'} but argument is of type 'Person1' {aka 'struct <anonymous>'}
+    void printPersonDetails(Person p) {
+   */
+
+    return 0;
 }
