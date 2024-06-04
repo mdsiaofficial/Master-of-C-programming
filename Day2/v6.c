@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <limits.h>
+#include <math.h>
+
 int main(){
   int six = 23;
   int *ptr = &six;
@@ -51,12 +53,15 @@ int main(){
   printf("long long int range: %lld to %lld", min3, max3);
 
     printf("\n\n");
-  __int128_t min4 = INT64_MIN;
-  __int128_t max4 = INT64_MAX;
-  printf("int 128 bit range: %lld to %lld", (long long)min4, (long long)max4);
+  __int128_t min4 = (__int128_t)INT64_MIN+INT64_MIN; // not working technically
+  __int128_t max4 = (__int128_t)INT64_MAX+INT64_MAX; // not working technically
+  unsigned long long int cc = LONG_LONG_MAX+LONG_LONG_MAX;
+  printf("int 128 bit range: -%llu to %llu", cc, cc);
 
   printf("\n\n");
   printf("Name\t\tSize\n");
   printf("________________________\n");
   printf("int\t\t%d\nlong int\t%d\nlong long int\t%d\nlong long\t%d\n__int8\t\t%d\n__int16\t\t%d\n__int32\t\t%d\n__int64\t\t%d\n__int128_t\t%d\n", sizeof(int), sizeof(long int), sizeof(long long int), sizeof(long long), sizeof(__int8), sizeof(__int16), sizeof(__int32),sizeof(__int64), sizeof(__int128_t));
+
+  
 }
