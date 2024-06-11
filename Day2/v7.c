@@ -40,11 +40,9 @@ int main(){
   printf("unsigned long long int [%llu] to [%llu]", 0U, ULLONG_MAX);
 
   printf("\n\n");
-  __int128_t min4 = -ULONG_LONG_MAX; // not working technically
-  __int128_t max4 = (__int128_t)ULONG_LONG_MAX; // not working technically
-  unsigned long long int cc = LONG_LONG_MAX+LONG_LONG_MAX;
-  printf("int 128 bit range: -%llu to %llu", cc, cc);
+  __int128_t cc = LONG_LONG_MAX+LONG_LONG_MAX;
+  printf("int 128 bit range: [-%llu] to [%llu]", (long long)cc, (long long)cc);
   printf("\n\n");
-  printf("int 128 bit range: -%llu to %llu", min4, max4);
+  printf("unsigned int 128 bit range: [0] to [34028236692093846346337460743176821145]\n\n");
 
 }
