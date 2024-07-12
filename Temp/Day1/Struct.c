@@ -23,7 +23,7 @@ void printPersonDetails(Person p) {
 int main() {
     // Create a Person struct and assign values
     Person p = {"Alice", 30, "IT"};
-    Person p1 = {"Ashiq", 24, "CSE", 25};
+    Person p1 = {"Ashiq", 24, "CSE"};
 
     // Call the print function with the person struct
     printPersonDetails(p1);
