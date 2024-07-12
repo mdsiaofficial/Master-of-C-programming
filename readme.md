@@ -1,16 +1,30 @@
 # Master of C Programming
 
 ## Day 1
-### 1.1 - Introduction
-### 1.2 - C Language Features
-### 1.3 - C Variables
-### 1.4 - C Variable Naming
-### 1.5 - Basic output function
-### 1.6 - Fundamental Data types part 1
-### 1.7 - Fundamental Data types part 2
-### 1.8 - Exceeding the valid range of data types
+
+### v1 - Introduction
+
+### v2 - C Language Features
+
+### v3 - C Variables
+
+### v4 - C Variable Naming
+
+### v5 - Basic output function
+
+### v6 - Fundamental Data types part 1
+
+### v7 - Fundamental Data types part 2
+
+### v8 - Exceeding the valid range of data types
+
+### v9 - Char with ASCII and with Extended ASCII
+
+### v10 - Float, Double, long Double
+
 
 # Full Outline:
+
 C Programming:
 1) Introduction to the course.
 2) Variables 

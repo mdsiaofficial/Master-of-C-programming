@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-
-int main(){
+int main()
+{
 
   char ch = 'H';
   printf("%c\n", ch);
@@ -9,8 +9,16 @@ int main(){
   char bh = 75;
   printf("%c\n", bh);
 
-
-char hj = -75;
+  char hj = -75;
   printf("%c\n", hj);
+
+
+  hj = -128;
+  char gj = 128;
+  printf("%c - %c\n", hj, gj);
+
+  hj = -127;
+  gj = 129;
+  printf("%c - %c\n", hj, gj);
   return 0;
 }
