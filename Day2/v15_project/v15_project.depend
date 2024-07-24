@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1721365782 source:d:\codefiles\master-of-c-programming\day2\v15_project\add.c
+
+1721366811 source:d:\codefiles\master-of-c-programming\day2\v15_project\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1721366441 source:d:\codefiles\master-of-c-programming\day2\v15_project\dyna.c
+
+1721366731 source:d:\codefiles\master-of-c-programming\day2\v15_project\addglobal.c
+

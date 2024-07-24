@@ -22,6 +22,71 @@
 
 ### v10 - Float, Double, long Double
 
+### v11 - Quiz 1
+
+## Day 2
+
+### v12 - Scope of variable
+
+### v13 - Variable modifier ( Auto & Extern )
+
+### v14 - Variable modifier ( Register )
+
+### v15 - Variable modifier ( Static )
+
+### v16 - Variable modifier ( const & #define ) part 1
+
+### v17 - Variable modifier ( const & #define ) part 2
+
+### v18 - Quiz 2
+
+### v19 - Taking input ( scanf )
+
+### v20 - Quiz 3
+
+### v21 - Operators in c
+
+### v22 - Arithmetic Operators in c
+
+### v23 - Increment/Decrement part 1
+
+### v24 - Increment/Decrement part 2 - Quiz
+
+### v25 - Relational Operator
+
+### v26 - Short Circuit in c
+
+### v27 - Bitwise part 1
+
+### v28 - Bitwise part 2
+
+### v29 - Bitwise part 3
+
+### v30 - Bitwise part 4
+
+### v31 - Assignment operator
+
+### v32 - Conditional / Ternary Operator
+
+### v33 - Comma (,) operator
+
+### v34 - Quiz 3
+
+### v35 - Quiz 3
+
+### v36 - Quiz 3
+
+### v37 - Quiz 3
+
+### v38 - Quiz 3
+
+### v39 - Quiz 3
+
+### v40 - Quiz 3
+
+
+
+
 
 # Full Outline:
 
