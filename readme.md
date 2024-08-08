@@ -70,19 +70,61 @@
 
 ### v33 - Comma (,) operator
 
-### v34 - Quiz 3
+### v34 - Precedence of operator
 
-### v35 - Quiz 3
+### v35 - problems in operator 1
 
-### v36 - Quiz 3
+### v36 - problems in operator 2
 
-### v37 - Quiz 3
+### v37 - Rapid Quiz 1
 
-### v38 - Quiz 3
+### v38 - Conditional if else
 
-### v39 - Quiz 3
+### v39 - Switch
 
-### v40 - Quiz 3
+### v40 - Loop (for, while)
+
+### v41 - Loop (do-while)
+
+### v42 - Loop control
+
+### v43 - Loop problem - 1
+
+### v44 - 
+
+### v45 - 
+
+### v46 - 
+
+### v47 - 
+
+### v48 - 
+
+### v49 - 
+
+### v50 - 
+
+### v51 - 
+
+### v52 - 
+
+### v53 - 
+
+### v54 - 
+
+### v55 - 
+
+### v56 - 
+
+### v57 - 
+
+### v58 - 
+
+### v59 - 
+
+### v60 - 
+
+
 
 
 
@@ -105,9 +147,9 @@ C Programming:
 12) File Handling
 
 Data Structures:
-1) Stacks  
+1) Stacks
 2) Queues  
-3) Linked list 
+3) Linked list
 4) Trees  
 5) Binary search trees  
 6) Binary Heaps  
