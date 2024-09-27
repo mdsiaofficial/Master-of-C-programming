@@ -11,7 +11,6 @@ int main()
   int b = 10;
   while (b)
   {
-    /* code */
     printf("%d\n", b);
     b--;
   }
