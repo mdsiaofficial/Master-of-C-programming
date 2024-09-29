@@ -11,8 +11,12 @@ int main()
   }
   // 11 times
 
+
+  printf("\n\n");
+
+
   // left shift
-  int i = 1;
+  i = 1;
   for (; i<2048; i <<= 1)
   {
     printf("%d\n", i);
