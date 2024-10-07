@@ -1,26 +1,24 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdbool.h>
 
-int factorial(int n){
-  if(n == 0) return 1;
-  else return (n * factorial(n-1));
+bool checkPrime (int n){
+  if(n <= 1) return false;
+  else if(n == 2 || n == 3) return true;
+  for(int i=2; i <= sqrt(n); i++){
+    if(n % i == 0) return false;
+  }
+  return true;
 }
 
 int main()
 {
-  int n, sum=0;
+  int n;
   printf("Enter a number: ");
   scanf("%d", &n);
-  int temp = n;
-  while(temp!=0){
-    int remainder = temp % 10;
-    sum += factorial(remainder);
-    temp = temp/10;
-  }
-  if(sum == n) printf("%d is strong number. \n", n);
-  else printf("%d is not a strong number. \n", n);
   
-
+  if(checkPrime(n)) printf("%d is a prime number. \n", n);
+  else printf("%d is not a prime number. \n", n);
   
   return 0;
 }
