@@ -3,9 +3,17 @@
 #include <stdbool.h>
 
 void add_without_plus_opr(int *a, int *b){
-  while ((*b)!=0) {
-    (*a)++;
-    (*b)--;
+  if((*b)>0){
+    while ((*b)!=0) {
+      (*a)++;
+      (*b)--;
+    }
+
+  }else if((*b)<0){
+    while ((*b)!=0) {
+      (*a)--;
+      (*b)++;
+    }
   }
 }
 
