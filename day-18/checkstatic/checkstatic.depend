@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1729654442 source:d:\codefiles\master-of-c-programming\day-18\checkstatic\fun.c
+
+1729654733 source:d:\codefiles\master-of-c-programming\day-18\checkstatic\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1729654719 source:d:\codefiles\master-of-c-programming\day-18\checkstatic\fun1.c
+

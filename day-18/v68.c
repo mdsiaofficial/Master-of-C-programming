@@ -1,4 +1,4 @@
-  #include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -9,8 +9,7 @@
 #define ll long long int
 #define ld double
 #define ull unsigned long long int
-
-
+int fun(int, int);
 int main(){
 
   printf("%d\n", fun(1,2));
