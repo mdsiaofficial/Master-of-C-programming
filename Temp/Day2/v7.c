@@ -5,19 +5,19 @@
 
 int main(){
   printf("\n\n");
-  printf("short int rnage: [%d] to [%d]", SHRT_MIN, SHRT_MAX);
+  printf("short int range: [%d] to [%d]", SHRT_MIN, SHRT_MAX);
   printf("\n\n");
 
-  printf("int/long int rnage: [%d] to [%d]", INT_MIN, INT_MAX);
+  printf("int/long int range: [%d] to [%d]", INT_MIN, INT_MAX);
   printf("\n\n");
   
-  printf("unsigned int/unsigned long int rnage: [%d] to [%lu]", 0, INT_MAX+INT_MAX);
+  printf("unsigned int/unsigned long int range: [%d] to [%lu]", 0, INT_MAX+INT_MAX);
   printf("\n\n");
 
-  printf("long long int rnage: [%lld] to [%lld]", LONG_LONG_MIN, LONG_LONG_MAX);
+  printf("long long int range: [%lld] to [%lld]", LONG_LONG_MIN, LONG_LONG_MAX);
   printf("\n\n");
 
-  printf("unsigned long long int rnage: [%llu] to [%llu]", 0ULL, ULLONG_MAX);
+  printf("unsigned long long int range: [%llu] to [%llu]", 0ULL, ULLONG_MAX);
   printf("\n\n");
   printf("----------------------------------------");
   printf("----------------------------------------");
