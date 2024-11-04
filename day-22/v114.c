@@ -19,12 +19,12 @@ int main(){
   }
   printf("%d\n", sum); //141
 
-  // printf("%x\n", arr++); //* not allowed arr++
+  // printf("%x\n", arr++); //! not allowed arr++
   printf("%x\n", arr+1); //* allowed arr+1 
   printf("%d\n", *(arr+1)); //* allowed *(arr+1)
   int *b = arr;
   printf("%d\n", *(b++)); //* allowed *(b++)
-  // printf("%d\n", *(arr++)); //* not allowed *(arr++)
+  // printf("%d\n", *(arr++)); //! not allowed *(arr++)
 
   return 0;
 
